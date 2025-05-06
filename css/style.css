@@ -1,0 +1,39 @@
+.registry {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 1rem;
+}
+.registry__header,
+.registry .registry__row {
+  display: grid;
+  grid-template-columns: 110px 90px 60px 80px 90px 220px 70px 70px 110px 110px 110px 140px 120px 120px 120px 160px;
+  column-gap: 0.5rem;
+  align-items: center;
+  padding: 4px;
+}
+.registry__header {
+  font-weight: bold;
+  background-color: #e7e7e7;
+}
+.registry .registry__row {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.registry .registry__row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.registry .registry__row input {
+  width: 100%;
+  padding: 4px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button#addRowBtn {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ValReg</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Подключение стилей -->
+    <script src="js/app.js" defer></script>
+    <!-- Асинхронная загрузка скрипта -->
+  </head>
+  <body>
+    <h1>Реестр объектов валидации</h1>
+
+    <section class="registry" role="table" aria-label="Реестр">
+      <header class="registry__header" role="row">
+        <div role="columnheader">Статус</div>
+        <div role="columnheader">№ папки</div>
+        <div role="columnheader">ВУ</div>
+        <div role="columnheader">Тип</div>
+        <div role="columnheader">Подтип</div>
+        <div role="columnheader">Объект</div>
+        <div role="columnheader">Корпус</div>
+        <div role="columnheader">Этаж</div>
+        <div role="columnheader">Помещение</div>
+        <div role="columnheader">Обозначение</div>
+        <div role="columnheader">Отчёт Q/V</div>
+        <div role="columnheader">Дата Q/V</div>
+        <div role="columnheader">Код последнего</div>
+        <div role="columnheader">Дата последнего</div>
+        <div role="columnheader">След. Q/V</div>
+        <div role="columnheader">След. ОТС</div>
+        <div role="columnheader">Примечание</div>
+      </header>
+
+      <div id="registryBody"></div>
+    </section>
+
+    <button id="addRowBtn">Добавить объект</button>
+  </body>
+</html>
